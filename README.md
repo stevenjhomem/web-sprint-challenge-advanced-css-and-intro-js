@@ -22,11 +22,36 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
+1. How would you describe acessibility on the web to someone new to programming? 
+
+    I would describe accessibility to someone new as our continual consideration, as we are creating websites, of people who may have hearing or vision disabilities and of which viewports will be used to view and interact with our websites. 
+
+    There are many ways, using HTML and CSS, that we can code with these people in mind. Making sure that we are able to reach any person regardless of their current place in life. We want to code while caring for them. Success in this area can be defined as making sure that everyone gets the information we are providing, even if they cannot perceive the page the way that other people can. 
+
+    Also, with the viewports, we need to always remember that there will always be many different screen dimensions that a user will access our website with. Hence, we need to make sure that we are styling our websites with responsive CSS to be prepared for the plethora of viewports that users will look at our website with. 
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+
+    Well, like I said above, we can split up accessibility into two main categories: (1) coding considering all people and (2) varying viewports.
+
+    For (1), we can make sure that we are using semantic HTML as screen readers or any sort of assistive device scans our webpage at the HTML level, not the CSS or JS levels. We can make sure that we use container elements for layout only. We can also make sure, on the same hand, to use HTML elements the way they were intended. Meaning, we need to use the HTML elements that provide meaning to the browser. These include header, aside, nav, main, article, tables for data, etc. 
+
+    For (2) we use media queries. Media queries are used to include a block of CSS code that runs only if a certain condition is true. Usually, this condition is a certain screen size. We seperate these blocks of CSS code with breakpoints for different screen sizes. 
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+    A variable is a container for any information that can stay constant or change, depending on certain conditions or on information that is passing through the program. 
+
 4. What is the purpose of using functions in code?
+
+    Functions allow us to give a name to a block of code and give it an inherent operation, that we can invoke at anytime in our program. It just takes some input and produces some output. It allows us to reduce how we code conditionals as well.
+
 5. How do you access a key inside of an object inside of an array?
+
+    Given that the object you desire is sitting in the index i, we would access a key inside of an object inside of an array with the following code:
+
+        array[i].key
+        
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
